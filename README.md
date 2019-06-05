@@ -6,8 +6,8 @@ composer require laravel/passport
 
 // config/app.php
 
-'providers' =>[
- Laravel\Passport\PassportServiceProvider::class,
+'providers' =>[<br>
+    Laravel\Passport\PassportServiceProvider::class,<br>
  ],
  
  // app/providers/AppServiceProvider.php
@@ -19,5 +19,5 @@ composer require laravel/passport
  }
 
 ## Ejecutar:
-php artisan migrate
+php artisan migrate<br>
 php artisan passport:install
